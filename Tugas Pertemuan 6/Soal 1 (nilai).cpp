@@ -9,8 +9,7 @@ int main() {
     double total = 0.0;
     double nilai_terkecil = 0.0;
     double nilai_terbesar = 0.0;
-
-    // Membaca sepuluh data dari keyboard
+    
     for (int i = 0; i < jumlah_data; i++) {
         cout << "Masukkan bilangan " << i + 1 << ": ";
         cin >> data[i];
